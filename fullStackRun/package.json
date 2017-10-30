@@ -1,0 +1,16 @@
+{
+  "name": "cordova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ios": "cnpm i &&  cordova build ios",
+    "aod": "cnpm i &&  cordova run android"
+  },
+  "author": "",
+  "license": "ISC"
+}

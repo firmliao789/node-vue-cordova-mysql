@@ -1,0 +1,32 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "feedparser": "^2.2.1",
+    "iconv": "^2.3.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-mysql-session": "^0.0.2",
+    "koa-router": "^7.2.1",
+    "koa-session-minimal": "^3.0.4",
+    "koa2-cors": "^2.0.3",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.0",
+    "request": "^2.81.0",
+    "sequelize": "^4.4.3",
+    "sqlite3": "^3.1.9",
+    "tedious": "^2.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "nodemon ./work/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
